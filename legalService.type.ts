@@ -1,4 +1,5 @@
 export interface LegalService {
   id: string;
-  name: string;
+  title: string;
+  duration: string;
 }
