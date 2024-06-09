@@ -7,5 +7,6 @@ export interface Appointment {
   eventId?: string;
   eventDate?: string;
   accountId?: string;
+  accountEmail?: string;
   fileMetadata?: FileMetadata[];
 }
