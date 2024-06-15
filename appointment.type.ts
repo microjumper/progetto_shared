@@ -1,4 +1,5 @@
 import { FileMetadata } from "./fileMetadata.type";
+import { User } from "./user.type";
 
 export interface Appointment {
   id?: string
@@ -6,7 +7,6 @@ export interface Appointment {
   legalServiceTitle?: string;
   eventId?: string;
   eventDate?: string;
-  accountId?: string;
-  accountEmail?: string;
   fileMetadata?: FileMetadata[];
+  user?: User;
 }

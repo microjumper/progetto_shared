@@ -1,8 +1,9 @@
+import { Appointment } from "./appointment.type";
 import { User } from "./user.type";
 
 export interface WaitingListEntity {
   id?: string;
-  legalServiceId: string;
+  appointment: Appointment
   user: User
-  joinedAt?: string;
+  addedOn?: string;
 }
