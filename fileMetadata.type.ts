@@ -3,4 +3,5 @@ export interface FileMetadata {
   fileUrl: string;
   accountId: string;
   accountEmail: string;
+  sasToken: string;
 }
